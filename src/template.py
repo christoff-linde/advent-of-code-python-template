@@ -152,14 +152,14 @@ def test_parse_input(example):
     assert data is not None
 
 
-def test_part_one(example):
+def test_{day_padded}_part_one(example):
     """Test part one with example data."""
     data = parse_input(example)
     result = part_one(data)
     assert result == 0  # Update with expected value
 
 
-def test_part_two(example):
+def test_day{day_padded}_part_two(example):
     """Test part two with example data."""
     data = parse_input(example)
     result = part_two(data)
@@ -167,7 +167,7 @@ def test_part_two(example):
 
 
 @pytest.mark.benchmark
-def test_benchmark_part_one(benchmark):
+def test_benchmark_day{day_padded}_part_one(benchmark):
     """Benchmark part one."""
     from src.aoc_cli import read_input
 
@@ -180,7 +180,7 @@ def test_benchmark_part_one(benchmark):
 
 
 @pytest.mark.benchmark
-def test_benchmark_part_two(benchmark):
+def test_benchmark_day{day_padded}_part_two(benchmark):
     """Benchmark part two."""
     from src.aoc_cli import read_input
 
