@@ -1,0 +1,7 @@
+{
+    "year": 2025,
+    "input_dir": "data/inputs",
+    "puzzle_dir": "data/puzzles",
+    "input_file": "{day:02}.txt",
+    "puzzle_file": "{day:02}.md"
+}

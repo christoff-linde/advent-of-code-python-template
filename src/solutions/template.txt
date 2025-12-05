@@ -1,0 +1,28 @@
+"""Advent of Code {year} - Day {day}"""
+
+
+def parse_input(input_text: str):
+    """Parse the input data."""
+    return input_text.strip()
+
+
+def part_one(data) -> int:
+    """Solve part one."""
+    return 0
+
+
+def part_two(data) -> int:
+    """Solve part two."""
+    return 0
+
+
+if __name__ == "__main__":
+    from src.aoc_cli import read_input
+
+    # Read and parse input
+    input_text = read_input({day})
+    data = parse_input(input_text)
+
+    # Solve and print results
+    print(f"Part 1: {{part_one(data)}}")
+    print(f"Part 2: {{part_two(data)}}")
